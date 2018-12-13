@@ -16,6 +16,6 @@ s.resource  = "Resources/*.{bundle}","*.{md,podspec}"
 s.vendored_libraries ="Libraries/*.{a}"
 s.vendored_frameworks ="Frameworks/*.{framework}"
 s.libraries = 'c++','xml2','z'
-s.frameworks = 'QuickLook','JavaScriptCore','StoreKit','WebKit','MobileCoreServices','CoreTelephony','AudioToolbox','MediaPlayer','CoreMedia','CoreAudio','CoreAudioKit','CFNetwork','CoreFoundation','Foundation','UIKit','SystemConfiguration'
+s.frameworks = 'QuickLook','JavaScriptCore','StoreKit','WebKit','MobileCoreServices','CoreTelephony','AudioToolbox','MediaPlayer','CoreMedia','CoreAudio','CoreAudioKit','CFNetwork','CoreFoundation','Foundation','UIKit','SystemConfiguration','AVFoundation','AssetsLibrary','CoreLocation','AddressBook'
 
 end

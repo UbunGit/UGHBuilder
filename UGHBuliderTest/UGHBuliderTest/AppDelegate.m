@@ -19,7 +19,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     BOOL ret = YES;
     ret = [PDRCore initEngineWihtOptions:launchOptions
-                             withRunMode:PDRCoreRunModeNormal withDelegate:self];
+                             withRunMode:PDRCoreRunModeAppClient];
     return ret;
 }
 
@@ -48,6 +48,7 @@
 
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+    [PDRCore destoryEngine];
 }
 
 

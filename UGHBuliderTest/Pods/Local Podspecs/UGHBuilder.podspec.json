@@ -42,6 +42,10 @@
     "CoreFoundation",
     "Foundation",
     "UIKit",
-    "SystemConfiguration"
+    "SystemConfiguration",
+    "AVFoundation",
+    "AssetsLibrary",
+    "CoreLocation",
+    "AddressBook"
   ]
 }

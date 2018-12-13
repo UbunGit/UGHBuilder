@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../UGHBuilder"
 
 SPEC CHECKSUMS:
-  UGHBuilder: 92bb3481f0a547d3f44e8aadd3d88e66d69c0922
+  UGHBuilder: b7933b9be7a6fdb08121e8fbc147ce88bda557e4
 
 PODFILE CHECKSUM: cae6ccb4c6abeec2b3f0475808a71cb992236c7c
 

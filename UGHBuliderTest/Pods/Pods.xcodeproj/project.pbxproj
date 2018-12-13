@@ -37,40 +37,45 @@
 /* Begin PBXFileReference section */
 		0BC3B124CC595E9A253589F79875A943 /* Pods-UGHBuliderTest-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UGHBuliderTest-umbrella.h"; sourceTree = "<group>"; };
 		0CF81A2F0A4D64F1546A93337A9722EE /* Pods-UGHBuliderTest-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UGHBuliderTest-acknowledgements.plist"; sourceTree = "<group>"; };
-		11885BE407E2BC121E36099C788A0B31 /* PDRNView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PDRNView.h; path = Classes/PDRNView.h; sourceTree = "<group>"; };
-		136FB39F211932F805960F3B28E41AA4 /* UGHBuilder.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = UGHBuilder.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		149769A8E48ED920CF5310B634CB1116 /* libcoreSupport.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libcoreSupport.a; path = Libraries/libcoreSupport.a; sourceTree = "<group>"; };
-		1CCAA8B4D713E1AE07E67388FFF45626 /* PGPlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PGPlugin.h; path = Classes/PGPlugin.h; sourceTree = "<group>"; };
-		214B325AC7BC02DB1784053C0B45127C /* DCADManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DCADManager.h; path = Classes/DCADManager.h; sourceTree = "<group>"; };
-		22276578DB9329EBB7E9F19B91D5B8A3 /* liblibUI.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = liblibUI.a; path = Libraries/liblibUI.a; sourceTree = "<group>"; };
-		24B6D0B4C16C6C31901FFE3399F69D99 /* PDRCoreAppFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PDRCoreAppFrame.h; path = Classes/PDRCoreAppFrame.h; sourceTree = "<group>"; };
-		274ADECED88BCFB6CA8A54E099647498 /* PDRCoreSettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PDRCoreSettings.h; path = Classes/PDRCoreSettings.h; sourceTree = "<group>"; };
+		25A37187147ABFA68A810BEE122BD942 /* PDRCoreWindowManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PDRCoreWindowManager.h; path = Classes/PDRCoreWindowManager.h; sourceTree = "<group>"; };
 		286B0DE1891FF339EF34CDC5628ED036 /* Pods-UGHBuliderTest-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UGHBuliderTest-Info.plist"; sourceTree = "<group>"; };
-		2894D0B2CB0FE67B8E6C9761D5822BB0 /* UGHBuilder.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UGHBuilder.xcconfig; sourceTree = "<group>"; };
-		309B32C8CCA9B0DF2B19E1F7B562A497 /* PandoraApi.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = PandoraApi.bundle; sourceTree = "<group>"; };
+		2C98AD239C89A0CB0B550626937C8D6A /* PDRCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PDRCore.h; path = Classes/PDRCore.h; sourceTree = "<group>"; };
 		315430F4B4791BBCD302F50CF1D42B29 /* Pods-UGHBuliderTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UGHBuliderTest.debug.xcconfig"; sourceTree = "<group>"; };
-		316F774575C561B401012B2DB3B09E8D /* PDRCoreAppManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PDRCoreAppManager.h; path = Classes/PDRCoreAppManager.h; sourceTree = "<group>"; };
 		33A325D1397CB454C3579908981EAA28 /* Pods-UGHBuliderTest-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UGHBuliderTest-resources.sh"; sourceTree = "<group>"; };
-		35905770C2977FF35F418CC748207426 /* PDRToolSystemEx.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PDRToolSystemEx.h; path = Classes/PDRToolSystemEx.h; sourceTree = "<group>"; };
-		43B3195332FECD5E2342FF4278555AD7 /* PDRCommonString.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PDRCommonString.h; path = Classes/PDRCommonString.h; sourceTree = "<group>"; };
-		454F3FB0BC12AA5DCA459D87F5A1496E /* PGObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PGObject.h; path = Classes/PGObject.h; sourceTree = "<group>"; };
-		5A1027E5F876C098CA7F3C3F24CACD1E /* PGMethod.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PGMethod.h; path = Classes/PGMethod.h; sourceTree = "<group>"; };
-		6150B9AEB10D8813BE02B1B67E7B84BE /* H5WEEngineExport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = H5WEEngineExport.h; path = Classes/H5WEEngineExport.h; sourceTree = "<group>"; };
-		73DD5F01BC8CB3AF43D18005C7547A52 /* PDRCoreAppWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PDRCoreAppWindow.h; path = Classes/PDRCoreAppWindow.h; sourceTree = "<group>"; };
+		3E82CADA4130EDFB19A8C4527925F0D4 /* liblibStorage.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = liblibStorage.a; path = Libraries/liblibStorage.a; sourceTree = "<group>"; };
+		4045D0F771B9369535DEC48156CF910C /* liblibUI.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = liblibUI.a; path = Libraries/liblibUI.a; sourceTree = "<group>"; };
+		4D08A106F481F0173AFB34DAB44008E0 /* UGHBuilder.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = UGHBuilder.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4DD1A8862A81A97CD97CBE2C0D786718 /* PDRToolSystemEx.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PDRToolSystemEx.h; path = Classes/PDRToolSystemEx.h; sourceTree = "<group>"; };
+		5371AA4FCE6438B070CD0F7BF562BB24 /* PDRCommonString.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PDRCommonString.h; path = Classes/PDRCommonString.h; sourceTree = "<group>"; };
+		6053AA0CBC371ABF7BE80C56E9C43F56 /* UGHBuilder.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UGHBuilder.xcconfig; sourceTree = "<group>"; };
+		609DC9CD855DA1E562B5EB81C8671DBD /* storage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = storage.framework; path = Frameworks/storage.framework; sourceTree = "<group>"; };
+		62C4375DB4EC80B134EA4F1D467FAA4E /* liblibNativeUI.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = liblibNativeUI.a; path = Libraries/liblibNativeUI.a; sourceTree = "<group>"; };
+		6493CD65BEFB056D64024D0F8B8E0EFC /* PDRCoreAppManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PDRCoreAppManager.h; path = Classes/PDRCoreAppManager.h; sourceTree = "<group>"; };
+		6557E169E430DF908277C11E5A51BD6A /* PDRNView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PDRNView.h; path = Classes/PDRNView.h; sourceTree = "<group>"; };
+		6787D1C9F9CAC76804D0565E5BA273B9 /* liblibNavigator.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = liblibNavigator.a; path = Libraries/liblibNavigator.a; sourceTree = "<group>"; };
+		8200052DDA50E57F7123FD66C1E85E0E /* PDRCoreDefs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PDRCoreDefs.h; path = Classes/PDRCoreDefs.h; sourceTree = "<group>"; };
 		87B0C20B572442526E75503206B11B4D /* Pods-UGHBuliderTest.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UGHBuliderTest.modulemap"; sourceTree = "<group>"; };
-		8931CBCA2C7D68F1F25929AE048952E8 /* PDRCoreWindowManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PDRCoreWindowManager.h; path = Classes/PDRCoreWindowManager.h; sourceTree = "<group>"; };
-		9E2D07318AC5040BE7B3099EE822EB9B /* PDRCoreApp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PDRCoreApp.h; path = Classes/PDRCoreApp.h; sourceTree = "<group>"; };
-		A4733A5411AA5B705132C274931FBBD7 /* liblibPDRCore.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = liblibPDRCore.a; path = Libraries/liblibPDRCore.a; sourceTree = "<group>"; };
+		8C0979D5A16D0F2DBBAF00C31E04398A /* PGObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PGObject.h; path = Classes/PGObject.h; sourceTree = "<group>"; };
+		90ABA7D930111F6891DCF1C31675537D /* PDRCoreSettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PDRCoreSettings.h; path = Classes/PDRCoreSettings.h; sourceTree = "<group>"; };
+		93C2959BF2393A18373C9D2ED5BDC22A /* liblibNativeObj.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = liblibNativeObj.a; path = Libraries/liblibNativeObj.a; sourceTree = "<group>"; };
+		96C6E9256BB1E9A6899460501E8EF6D3 /* H5WEEngineExport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = H5WEEngineExport.h; path = Classes/H5WEEngineExport.h; sourceTree = "<group>"; };
+		A6741C7328D2D7AC8AD1417711E96F4F /* liblibPDRCore.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = liblibPDRCore.a; path = Libraries/liblibPDRCore.a; sourceTree = "<group>"; };
+		ADA7F114B1406BB117D952A11B315B34 /* PDRCoreAppInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PDRCoreAppInfo.h; path = Classes/PDRCoreAppInfo.h; sourceTree = "<group>"; };
 		B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		C0D1EC7AB13B906F8F5DFDB5F5C07223 /* PDRToolSystem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PDRToolSystem.h; path = Classes/PDRToolSystem.h; sourceTree = "<group>"; };
+		C04DE9BC63207132C7AAD096D251626B /* DCADManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DCADManager.h; path = Classes/DCADManager.h; sourceTree = "<group>"; };
+		C46C65E7F0A0340C4E37205143BFC561 /* PDRToolSystem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PDRToolSystem.h; path = Classes/PDRToolSystem.h; sourceTree = "<group>"; };
 		C528C5E1159C0904191AC89654980AB5 /* Pods-UGHBuliderTest-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UGHBuliderTest-acknowledgements.markdown"; sourceTree = "<group>"; };
-		CB5C7D44EBA6A6CF8E1F9E937A229F23 /* PDRCoreDefs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PDRCoreDefs.h; path = Classes/PDRCoreDefs.h; sourceTree = "<group>"; };
+		CEFCCAB3B0D0F0B79EF4EEBCACB45103 /* PDRCoreApp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PDRCoreApp.h; path = Classes/PDRCoreApp.h; sourceTree = "<group>"; };
 		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D9F830785EA019F414F3328741D1C031 /* PDRCoreAppInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PDRCoreAppInfo.h; path = Classes/PDRCoreAppInfo.h; sourceTree = "<group>"; };
 		E0AF32A11AC8FBDEBCFA14D5D385D92E /* Pods_UGHBuliderTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_UGHBuliderTest.framework; path = "Pods-UGHBuliderTest.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8F89598DD1F7943C9D8E014448305A0 /* Pods-UGHBuliderTest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UGHBuliderTest-dummy.m"; sourceTree = "<group>"; };
-		E922583C82681DAAF77391D5DB25B61B /* PDRCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PDRCore.h; path = Classes/PDRCore.h; sourceTree = "<group>"; };
 		EA7BC085ABD1D5EF6AC2D4D1F7E32D5C /* Pods-UGHBuliderTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UGHBuliderTest.release.xcconfig"; sourceTree = "<group>"; };
+		ECE8DBEFC013D897AC968E0A65F35E32 /* PDRCoreAppFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PDRCoreAppFrame.h; path = Classes/PDRCoreAppFrame.h; sourceTree = "<group>"; };
+		F3C90424F423B8CA2996A90D71726889 /* PGMethod.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PGMethod.h; path = Classes/PGMethod.h; sourceTree = "<group>"; };
+		F4465D4CD96CE8A974FC7EAEE8F7E35B /* PandoraApi.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = PandoraApi.bundle; sourceTree = "<group>"; };
+		FC0B88CB40605B01104C2CE1214AD9F5 /* libcoreSupport.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libcoreSupport.a; path = Libraries/libcoreSupport.a; sourceTree = "<group>"; };
+		FD403B434307F56C4580BC44394752CB /* PGPlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PGPlugin.h; path = Classes/PGPlugin.h; sourceTree = "<group>"; };
+		FFF463592D7ED7C0268B4E31B0519BA8 /* PDRCoreAppWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PDRCoreAppWindow.h; path = Classes/PDRCoreAppWindow.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,21 +90,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		02AD259F36EB60B2B00E9DED5F64734F /* Pod */ = {
+		0C02F4DB95DC0C37AD97819C38B1C4E5 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		42374C497A9A0A43E36172C74B2F7586 /* Frameworks */ = {
+		2A62C1211993F4CF17E8CED3826BD72E /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				149769A8E48ED920CF5310B634CB1116 /* libcoreSupport.a */,
-				A4733A5411AA5B705132C274931FBBD7 /* liblibPDRCore.a */,
-				22276578DB9329EBB7E9F19B91D5B8A3 /* liblibUI.a */,
+				F4465D4CD96CE8A974FC7EAEE8F7E35B /* PandoraApi.bundle */,
 			);
-			name = Frameworks;
+			name = Resources;
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		44D5347904CF754D6785B84253F2574A /* iOS */ = {
@@ -129,34 +133,22 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		B08FF66CCE70F246C84D96E970D6EFAF /* UGHBuilder */ = {
+		8F200A3D5326CB6DF982D1BC5DB0DFEB /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				214B325AC7BC02DB1784053C0B45127C /* DCADManager.h */,
-				6150B9AEB10D8813BE02B1B67E7B84BE /* H5WEEngineExport.h */,
-				43B3195332FECD5E2342FF4278555AD7 /* PDRCommonString.h */,
-				E922583C82681DAAF77391D5DB25B61B /* PDRCore.h */,
-				9E2D07318AC5040BE7B3099EE822EB9B /* PDRCoreApp.h */,
-				24B6D0B4C16C6C31901FFE3399F69D99 /* PDRCoreAppFrame.h */,
-				D9F830785EA019F414F3328741D1C031 /* PDRCoreAppInfo.h */,
-				316F774575C561B401012B2DB3B09E8D /* PDRCoreAppManager.h */,
-				73DD5F01BC8CB3AF43D18005C7547A52 /* PDRCoreAppWindow.h */,
-				CB5C7D44EBA6A6CF8E1F9E937A229F23 /* PDRCoreDefs.h */,
-				274ADECED88BCFB6CA8A54E099647498 /* PDRCoreSettings.h */,
-				8931CBCA2C7D68F1F25929AE048952E8 /* PDRCoreWindowManager.h */,
-				11885BE407E2BC121E36099C788A0B31 /* PDRNView.h */,
-				C0D1EC7AB13B906F8F5DFDB5F5C07223 /* PDRToolSystem.h */,
-				35905770C2977FF35F418CC748207426 /* PDRToolSystemEx.h */,
-				5A1027E5F876C098CA7F3C3F24CACD1E /* PGMethod.h */,
-				454F3FB0BC12AA5DCA459D87F5A1496E /* PGObject.h */,
-				1CCAA8B4D713E1AE07E67388FFF45626 /* PGPlugin.h */,
-				42374C497A9A0A43E36172C74B2F7586 /* Frameworks */,
-				02AD259F36EB60B2B00E9DED5F64734F /* Pod */,
-				CE2E9802D5194F2DA460EFFEA30B936D /* Resources */,
-				E9AA40164D9B95AD4E9170695CB8DB6C /* Support Files */,
+				6053AA0CBC371ABF7BE80C56E9C43F56 /* UGHBuilder.xcconfig */,
 			);
-			name = UGHBuilder;
-			path = ../../UGHBuilder;
+			name = "Support Files";
+			path = "../UGHBuliderTest/Pods/Target Support Files/UGHBuilder";
+			sourceTree = "<group>";
+		};
+		9B0BF9DDD27BE50720C3A42DA812F841 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4D08A106F481F0173AFB34DAB44008E0 /* UGHBuilder.podspec */,
+				2A62C1211993F4CF17E8CED3826BD72E /* Resources */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -170,36 +162,54 @@
 		CCB13EA1EABA5C13B8BB3AA135C9F26D /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B08FF66CCE70F246C84D96E970D6EFAF /* UGHBuilder */,
+				E7E5D7F577B1619FF1D96F960E21237B /* UGHBuilder */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		CE2E9802D5194F2DA460EFFEA30B936D /* Resources */ = {
+		CF480D7A752D9856F4B5728B63B4887F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				136FB39F211932F805960F3B28E41AA4 /* UGHBuilder.podspec */,
-				DE25AE862BA18EB4ED89F203D1EC42DC /* Resources */,
+				FC0B88CB40605B01104C2CE1214AD9F5 /* libcoreSupport.a */,
+				93C2959BF2393A18373C9D2ED5BDC22A /* liblibNativeObj.a */,
+				62C4375DB4EC80B134EA4F1D467FAA4E /* liblibNativeUI.a */,
+				6787D1C9F9CAC76804D0565E5BA273B9 /* liblibNavigator.a */,
+				A6741C7328D2D7AC8AD1417711E96F4F /* liblibPDRCore.a */,
+				3E82CADA4130EDFB19A8C4527925F0D4 /* liblibStorage.a */,
+				4045D0F771B9369535DEC48156CF910C /* liblibUI.a */,
+				609DC9CD855DA1E562B5EB81C8671DBD /* storage.framework */,
 			);
-			name = Resources;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		DE25AE862BA18EB4ED89F203D1EC42DC /* Resources */ = {
+		E7E5D7F577B1619FF1D96F960E21237B /* UGHBuilder */ = {
 			isa = PBXGroup;
 			children = (
-				309B32C8CCA9B0DF2B19E1F7B562A497 /* PandoraApi.bundle */,
+				C04DE9BC63207132C7AAD096D251626B /* DCADManager.h */,
+				96C6E9256BB1E9A6899460501E8EF6D3 /* H5WEEngineExport.h */,
+				5371AA4FCE6438B070CD0F7BF562BB24 /* PDRCommonString.h */,
+				2C98AD239C89A0CB0B550626937C8D6A /* PDRCore.h */,
+				CEFCCAB3B0D0F0B79EF4EEBCACB45103 /* PDRCoreApp.h */,
+				ECE8DBEFC013D897AC968E0A65F35E32 /* PDRCoreAppFrame.h */,
+				ADA7F114B1406BB117D952A11B315B34 /* PDRCoreAppInfo.h */,
+				6493CD65BEFB056D64024D0F8B8E0EFC /* PDRCoreAppManager.h */,
+				FFF463592D7ED7C0268B4E31B0519BA8 /* PDRCoreAppWindow.h */,
+				8200052DDA50E57F7123FD66C1E85E0E /* PDRCoreDefs.h */,
+				90ABA7D930111F6891DCF1C31675537D /* PDRCoreSettings.h */,
+				25A37187147ABFA68A810BEE122BD942 /* PDRCoreWindowManager.h */,
+				6557E169E430DF908277C11E5A51BD6A /* PDRNView.h */,
+				C46C65E7F0A0340C4E37205143BFC561 /* PDRToolSystem.h */,
+				4DD1A8862A81A97CD97CBE2C0D786718 /* PDRToolSystemEx.h */,
+				F3C90424F423B8CA2996A90D71726889 /* PGMethod.h */,
+				8C0979D5A16D0F2DBBAF00C31E04398A /* PGObject.h */,
+				FD403B434307F56C4580BC44394752CB /* PGPlugin.h */,
+				CF480D7A752D9856F4B5728B63B4887F /* Frameworks */,
+				0C02F4DB95DC0C37AD97819C38B1C4E5 /* Pod */,
+				9B0BF9DDD27BE50720C3A42DA812F841 /* Resources */,
+				8F200A3D5326CB6DF982D1BC5DB0DFEB /* Support Files */,
 			);
-			name = Resources;
-			path = Resources;
-			sourceTree = "<group>";
-		};
-		E9AA40164D9B95AD4E9170695CB8DB6C /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				2894D0B2CB0FE67B8E6C9761D5822BB0 /* UGHBuilder.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../UGHBuliderTest/Pods/Target Support Files/UGHBuilder";
+			name = UGHBuilder;
+			path = ../../UGHBuilder;
 			sourceTree = "<group>";
 		};
 		F1BA8137D4055018C329488CCD6A8643 /* Products */ = {
@@ -384,7 +394,7 @@
 		};
 		3B18B004B500B78C5FDE7084A6E981A5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2894D0B2CB0FE67B8E6C9761D5822BB0 /* UGHBuilder.xcconfig */;
+			baseConfigurationReference = 6053AA0CBC371ABF7BE80C56E9C43F56 /* UGHBuilder.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -500,7 +510,7 @@
 		};
 		BFA71B08344D77EB5ECED123F046952E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2894D0B2CB0FE67B8E6C9761D5822BB0 /* UGHBuilder.xcconfig */;
+			baseConfigurationReference = 6053AA0CBC371ABF7BE80C56E9C43F56 /* UGHBuilder.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";

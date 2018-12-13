@@ -16,6 +16,7 @@
 		84A2F21721C1FD3300C105EB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A2F21621C1FD3300C105EB /* main.m */; };
 		84A2F22121C1FD3300C105EB /* UGHBuliderTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A2F22021C1FD3300C105EB /* UGHBuliderTestTests.m */; };
 		84A2F22C21C1FD3300C105EB /* UGHBuliderTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A2F22B21C1FD3300C105EB /* UGHBuliderTestUITests.m */; };
+		84A2F23C21C22D8200C105EB /* Pandora in Resources */ = {isa = PBXBuildFile; fileRef = 84A2F23B21C22D8200C105EB /* Pandora */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		84A2F22721C1FD3300C105EB /* UGHBuliderTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UGHBuliderTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84A2F22B21C1FD3300C105EB /* UGHBuliderTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UGHBuliderTestUITests.m; sourceTree = "<group>"; };
 		84A2F22D21C1FD3300C105EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84A2F23B21C22D8200C105EB /* Pandora */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Pandora; sourceTree = "<group>"; };
+		84A2F23D21C2358D00C105EB /* control.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = control.xml; sourceTree = "<group>"; };
 		B7C9179587353AEFC8A6E7EC /* Pods-UGHBuliderTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UGHBuliderTest.release.xcconfig"; path = "Target Support Files/Pods-UGHBuliderTest/Pods-UGHBuliderTest.release.xcconfig"; sourceTree = "<group>"; };
 		D88A1150F222E32AD77DAD11 /* Pods-UGHBuliderTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UGHBuliderTest.debug.xcconfig"; path = "Target Support Files/Pods-UGHBuliderTest/Pods-UGHBuliderTest.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -89,7 +92,6 @@
 				D88A1150F222E32AD77DAD11 /* Pods-UGHBuliderTest.debug.xcconfig */,
 				B7C9179587353AEFC8A6E7EC /* Pods-UGHBuliderTest.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -118,6 +120,8 @@
 		84A2F20621C1FD3200C105EB /* UGHBuliderTest */ = {
 			isa = PBXGroup;
 			children = (
+				84A2F23D21C2358D00C105EB /* control.xml */,
+				84A2F23B21C22D8200C105EB /* Pandora */,
 				84A2F20721C1FD3200C105EB /* AppDelegate.h */,
 				84A2F20821C1FD3200C105EB /* AppDelegate.m */,
 				84A2F20A21C1FD3200C105EB /* ViewController.h */,
@@ -168,7 +172,7 @@
 				84A2F20021C1FD3200C105EB /* Sources */,
 				84A2F20121C1FD3200C105EB /* Frameworks */,
 				84A2F20221C1FD3200C105EB /* Resources */,
-				E020E8E17F66E2D289657E4F /* [CP] Copy Pods Resources */,
+				79DAA9C9B25607F9A2AF73D1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -262,6 +266,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84A2F23C21C22D8200C105EB /* Pandora in Resources */,
 				84A2F21421C1FD3300C105EB /* LaunchScreen.storyboard in Resources */,
 				84A2F21121C1FD3300C105EB /* Assets.xcassets in Resources */,
 				84A2F20F21C1FD3200C105EB /* Main.storyboard in Resources */,
@@ -307,7 +312,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E020E8E17F66E2D289657E4F /* [CP] Copy Pods Resources */ = {
+		79DAA9C9B25607F9A2AF73D1 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
