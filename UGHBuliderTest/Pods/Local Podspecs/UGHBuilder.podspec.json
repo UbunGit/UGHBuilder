@@ -1,0 +1,47 @@
+{
+  "name": "UGHBuilder",
+  "version": "1.0.0",
+  "summary": "HBuilder简易集成",
+  "homepage": "http://dcloud.io/index.html",
+  "license": "MIT",
+  "authors": {
+    "静静地白色外套": "296019487@qq.com"
+  },
+  "platforms": {
+    "ios": null
+  },
+  "source": {
+    "path": "./UGHBuilder"
+  },
+  "static_framework": true,
+  "source_files": "Classes/*.{h,m}",
+  "resources": [
+    "Resources/*.{bundle}",
+    "*.{md,podspec}"
+  ],
+  "vendored_libraries": "Libraries/*.{a}",
+  "vendored_frameworks": "Frameworks/*.{framework}",
+  "libraries": [
+    "c++",
+    "xml2",
+    "z"
+  ],
+  "frameworks": [
+    "QuickLook",
+    "JavaScriptCore",
+    "StoreKit",
+    "WebKit",
+    "MobileCoreServices",
+    "CoreTelephony",
+    "AudioToolbox",
+    "MediaPlayer",
+    "CoreMedia",
+    "CoreAudio",
+    "CoreAudioKit",
+    "CFNetwork",
+    "CoreFoundation",
+    "Foundation",
+    "UIKit",
+    "SystemConfiguration"
+  ]
+}

@@ -1,0 +1,6 @@
+framework module Pods_UGHBuliderTest {
+  umbrella header "Pods-UGHBuliderTest-umbrella.h"
+
+  export *
+  module * { export * }
+}

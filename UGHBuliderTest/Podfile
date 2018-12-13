@@ -1,0 +1,6 @@
+target 'UGHBuliderTest' do
+
+use_frameworks!
+pod 'UGHBuilder', :path => '../UGHBuilder'
+
+end

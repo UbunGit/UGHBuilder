@@ -1,0 +1,16 @@
+PODS:
+  - UGHBuilder (1.0.0)
+
+DEPENDENCIES:
+  - UGHBuilder (from `../UGHBuilder`)
+
+EXTERNAL SOURCES:
+  UGHBuilder:
+    :path: "../UGHBuilder"
+
+SPEC CHECKSUMS:
+  UGHBuilder: 92bb3481f0a547d3f44e8aadd3d88e66d69c0922
+
+PODFILE CHECKSUM: cae6ccb4c6abeec2b3f0475808a71cb992236c7c
+
+COCOAPODS: 1.6.0.beta.2
